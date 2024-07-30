@@ -1,18 +1,16 @@
 {
   "files": {
-    "main.css": "/home/static/css/main.fe927caf.css",
-    "main.js": "/home/static/js/main.b0dfcacb.js",
-    "static/js/787.cb0b4ad4.chunk.js": "/home/static/js/787.cb0b4ad4.chunk.js",
-    "static/media/axolotl.png": "/home/static/media/axolotl.f77ab337736094644a56.png",
-    "static/media/mru.png": "/home/static/media/mru.ad2e443217d087f91b54.png",
-    "static/media/codeninjas.png": "/home/static/media/codeninjas.c9bfbbcde8c830579922.png",
-    "index.html": "/home/index.html",
-    "main.fe927caf.css.map": "/home/static/css/main.fe927caf.css.map",
-    "main.b0dfcacb.js.map": "/home/static/js/main.b0dfcacb.js.map",
-    "787.cb0b4ad4.chunk.js.map": "/home/static/js/787.cb0b4ad4.chunk.js.map"
+    "main.css": "/portfolio/static/css/main.fe927caf.css",
+    "main.js": "/portfolio/static/js/main.e6b6cc63.js",
+    "static/js/787.4b24f717.chunk.js": "/portfolio/static/js/787.4b24f717.chunk.js",
+    "static/media/hashirshoaeb.png": "/portfolio/static/media/hashirshoaeb.23e8b5a1f7de87f03d05.png",
+    "index.html": "/portfolio/index.html",
+    "main.fe927caf.css.map": "/portfolio/static/css/main.fe927caf.css.map",
+    "main.e6b6cc63.js.map": "/portfolio/static/js/main.e6b6cc63.js.map",
+    "787.4b24f717.chunk.js.map": "/portfolio/static/js/787.4b24f717.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.fe927caf.css",
-    "static/js/main.b0dfcacb.js"
+    "static/js/main.e6b6cc63.js"
   ]
 }
