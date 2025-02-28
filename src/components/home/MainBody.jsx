@@ -2,6 +2,10 @@ import React from "react";
 import Container from "react-bootstrap/Container";
 import Typist from 'react-typist-component';
 import { Jumbotron } from "./migration";
+import { mainBody, repos, about, skills } from "../../editable-stuff/config.js";
+
+
+
 
 const MainBody = React.forwardRef(
   ({ gradient, title, message, icons }, ref) => {
@@ -26,8 +30,10 @@ const MainBody = React.forwardRef(
             </div>
           </Typist>
           <div className="p-5">
-            {icons.map((icon, index) => (
+            {
+            icons.map((icon, index) => (
               <a
+                className={`social-icon-${index}`}
                 key={`social-icon-${index}`}
                 target="_blank"
                 rel="noopener noreferrer"
@@ -38,14 +44,20 @@ const MainBody = React.forwardRef(
               </a>
             ))}
           </div>
-          <a
-            className="btn btn-outline-light btn-lg "
-            href="#aboutme"
-            role="button"
-            aria-label="Learn more about me"
+          <div
+          className="resume-btn" 
           >
-            More about me
-          </a>
+            <a
+              className="btn btn-outline-light btn-lg "
+              href={about.resume}
+              target="_blank"
+              rel="noopener noreferrer"
+              role="button"
+              aria-label="View my resume."
+            >
+              My Resume
+            </a>
+          </div>
         </Container>
       </Jumbotron>
     );

@@ -5,11 +5,11 @@ const navBar = {
 
 // Main Body SECTION
 const mainBody = {
-  gradientColors: "#eb8fe8, #c179f7, #fab6af",
+  gradientColors: "#eb8fe8, #c179f7, #FF63A1, #FF3B3B, #FF7DFF",
   firstName: "Emily",
   middleName: "",
   lastName: "Allerdings",
-  message: "Software Developer | Game Developer | Animal Lover ",
+  message: "Software Developer | Game Developer ",
   icons: [
     {
       image: "fa-github",
@@ -19,8 +19,17 @@ const mainBody = {
       image: "fa-linkedin",
       url: "https://www.linkedin.com/in/emilyallerdings/",
     },
+    {
+      image: "fa-itch-io",
+      url: "https://unconscious-a.itch.io/",
+    },
   ],
 };
+
+const iconCount = mainBody.icons.length;
+
+const root = document.documentElement;
+root.style.setProperty('--icon-count', iconCount);
 
 // ABOUT SECTION
 // If you want the About Section to show a profile picture you can fill the profilePictureLink either with:
@@ -42,8 +51,8 @@ const about = {
   imageLink: require("../editable-stuff/axolotl.png"),
   imageSize: 375,
   message:
-    "My name is Hashir Shoaib. I’m a graduate of 2020 from National University of Sciences and Technology at Islamabad with a degree in Computer Engineering. I'm most passionate about giving back to the community, and my goal is to pursue this passion within the field of software engineering. In my free time I like working on open source projects.",
-  resume: "https://docs.google.com/document/d/13_PWdhThMr6roxb-UFiJj4YAFOj8e_bv3Vx9UHQdyBQ/edit?usp=sharing",
+    "test about",
+  resume: require("../editable-stuff/resume.pdf"),
 };
 
 // PROJECTS SECTION
@@ -53,7 +62,7 @@ const about = {
 //      i.e ["repository-1", "repo-2"]
 const repos = {
   show: true,
-  heading: "Recent Projects",
+  heading: "Recent Github Projects",
   gitHubUsername: "emilyallerdings", //i.e."johnDoe12Gh"
   reposLength: 4,
   specificRepos: [],
@@ -120,17 +129,19 @@ const getInTouch = {
 
 const experiences = {
   show: true,
-  heading: "Experiences",
+  heading: "Work Experience",
   data: [
     {
       role: 'C#/Javascript Instructor - Code Ninjas',// Here Add Company Name
       companylogo: require('../assets/img/codeninjas.png'),
       date: 'January 2023 – Present',
+      info: "Taught C# and Javascript to teenagers and children.\nManaged front desk and customers.",
     },
     {
       role: 'Research Assistant - Mount Royal University',
       companylogo: require('../assets/img/mru.png'),
       date: 'October 2022 – January 2023',
+      info: "Collaborated on a Python machine learning research project.\nUsed Gymnasium, NetworkX, NumPy and MatPlotLib.",
     },
   ]
 }
