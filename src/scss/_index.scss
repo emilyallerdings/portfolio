@@ -200,3 +200,32 @@ $animationDelay: 1;
   60% { transform: rotate(-15deg); }
   80% { transform: rotate(15deg); }
 }
+
+.experience-section {
+  width: 100%; /* Prevents horizontal overflow */
+  min-height: calc(100vh + 20px); /* Ensures section takes at least full screen height */
+  display: flex;
+  align-items: flex-start; /* Align content to the top */
+  justify-content: center; /* Center content horizontally */
+  padding-top: 20px; /* Add some space from the top */
+  box-sizing: border-box;
+}
+
+.game-section {
+  width: 100%;
+  padding: 60px 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.game-image {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.game-info {
+  text-align: left;
+}
+
+.btn-primary {
+  margin-top: 10px;
+}

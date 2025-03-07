@@ -1,7 +1,7 @@
 {
   "name": "EmilyAllerdings-Portfolio",
-  "description": "A personal static website/portfolio template hosted with GitHub Pages, built to showcase my recent projects.",
-  "homepage": "http://emilyallerdings.github.io/portfolio",
+  "description": "A personal static website/portfolio hosted with GitHub Pages, built to showcase my recent projects.",
+  "homepage": ".",
   "version": "2.0.0",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",

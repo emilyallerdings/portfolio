@@ -11,12 +11,23 @@ import {
 import MainBody from "./components/home/MainBody";
 import AboutMe from "./components/home/AboutMe";
 import Project from "./components/home/Project";
+import Games from "./components/home/Games";
 import Footer from "./components/Footer";
 import Navbar from "./components/Navbar";
 import GetInTouch from "./components/home/GetInTouch.jsx";
 
 
 import Experience from "./components/home/Experience";
+
+const myGames = [
+  {
+    title: "Test Game",
+    description: "game game game game game game game game game game game.",
+    image: "/images/preview.png",
+    link: "https://unconscious-a.itch.io/randomly-generated-rat",
+  }
+  
+];
 
 const Home = React.forwardRef((props, ref) => {
   return (
@@ -39,7 +50,14 @@ const Home = React.forwardRef((props, ref) => {
       )}
       {
         experiences.show && (
-          <Experience experiences={experiences}/>
+          <Experience 
+            experiences={experiences}/>
+        )
+      }
+      {
+        false && (
+          
+          <Games heading="My Games" games={myGames} />
         )
       }
       {repos.show && (

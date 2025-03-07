@@ -63,8 +63,8 @@ const about = {
 const repos = {
   show: true,
   heading: "Recent Github Projects",
-  gitHubUsername: "emilyallerdings", //i.e."johnDoe12Gh"
-  reposLength: 4,
+  gitHubUsername: "emilyallerdings",
+  reposLength: 6,
   specificRepos: [],
 };
 
@@ -73,7 +73,7 @@ const leadership = {
   show: false,
   heading: "Leadership",
   message:
-    "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Vitae auctor eu augue ut lectus arcu bibendum at varius. Libero justo laoreet sit amet cursus sit amet. Imperdiet dui accumsan sit amet nulla facilisi morbi. At auctor urna nunc id. Iaculis urna id volutpat lacus laoreet non curabitur gravida. Et magnis dis parturient montes nascetur ridiculus mus mauris. In nisl nisi scelerisque eu ultrices vitae auctor. Mattis nunc sed blandit libero volutpat sed cras ornare. Pulvinar neque laoreet suspendisse interdum consectetur libero.",
+    "",
   images: [
     { 
       img: require("../editable-stuff/axolotl.png"), 
@@ -132,16 +132,16 @@ const experiences = {
   heading: "Work Experience",
   data: [
     {
-      role: 'C#/Javascript Instructor - Code Ninjas',// Here Add Company Name
-      companylogo: require('../assets/img/codeninjas.png'),
-      date: 'January 2023 – Present',
-      info: "Taught C# and Javascript to teenagers and children.\nManaged front desk and customers.",
-    },
-    {
       role: 'Research Assistant - Mount Royal University',
       companylogo: require('../assets/img/mru.png'),
       date: 'October 2022 – January 2023',
       info: "Collaborated on a Python machine learning research project.\nUsed Gymnasium, NetworkX, NumPy and MatPlotLib.",
+    },
+    {
+      role: 'C#/Javascript Instructor - Code Ninjas',// Here Add Company Name
+      companylogo: require('../assets/img/codeninjas.png'),
+      date: 'January 2023 – June 2024',
+      info: "Taught C# and Javascript to teenagers and children.\nManaged front desk and customers.",
     },
   ]
 }
